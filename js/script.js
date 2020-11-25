@@ -27,8 +27,8 @@ maior.onclick = function () {
     shape5.src = './assets/img/maior-shape5.svg'
     shape6.src = './assets/img/maior-shape6.svg'
     shape7.src = './assets/img/maior-shape7.svg'
-    tipo.innerHTML = 'Escala Maior'
-    formacao.innerHTML = 'Formação: T 2 3 4 5 6 7'
+    tipo.innerHTML = '<span class="badge badge-warning">Escala Maior</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T 2 3 4 5 6 7</span>'
 
 }
 
@@ -42,8 +42,9 @@ menor_natural.onclick = function () {
     shape5.src = './assets/img/menor-natural-shape5.svg'
     shape6.src = './assets/img/menor-natural-shape6.svg'
     shape7.src = './assets/img/menor-natural-shape7.svg'
-    tipo.innerHTML = 'Escala Menor Natural'
-    formacao.innerHTML = 'Formação: T 2 b3 4 5 b6 b7'
+    tipo.innerHTML = '<span class="badge badge-warning">Escala Menor Natural</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T 2 b3 4 5 b6 b7</span>'
+
 
 }
 
