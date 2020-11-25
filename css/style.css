@@ -1,0 +1,56 @@
+img{
+
+    width: 300px;
+    padding: 0;
+    
+}
+
+body{
+
+    background-color: #222;
+}
+
+
+.carousel-control-prev-icon{
+
+    color: red;
+}
+
+p{
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h4{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+span:hover{
+
+    cursor: pointer;
+    
+
+
+}
+
+.tonalidade:hover{
+
+    background-color: purple;
+
+
+}
+
+
+.tonalidade:active{
+
+    background-color: purple;
+
+
+}
+
+.dropdown-item:hover{
+
+    cursor: pointer;
+}
