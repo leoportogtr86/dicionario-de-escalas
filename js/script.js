@@ -49,7 +49,23 @@ menor_natural.onclick = function () {
 }
 
 
+menor_harmonica.onclick = function () {
+
+    shape1.src = './assets/img/menor-harmonica-shape1.svg'
+    shape2.src = './assets/img/menor-harmonica-shape2.svg'
+    shape3.src = './assets/img/menor-harmonica-shape3.svg'
+    shape4.src = './assets/img/menor-harmonica-shape4.svg'
+    shape5.src = './assets/img/menor-harmonica-shape5.svg'
+    shape6.src = './assets/img/menor-harmonica-shape6.svg'
+    shape7.src = './assets/img/menor-harmonica-shape7.svg'
+    tipo.innerHTML = '<span class="badge badge-warning">Escala Menor Harmônica</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T 2 b3 4 5 b6 7</span>'
+
+
+}
+
+
 $('.carousel').carousel({
 
-    interval: 1000 * 60
+    interval: 1000 * 6000
 })
