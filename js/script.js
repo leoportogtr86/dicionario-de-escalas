@@ -130,6 +130,22 @@ pentablues.onclick = function () {
 }
 
 
+pentatonica_menor_6.onclick = function () {
+
+    shape1.src = './assets/img/penta_menor6_shape1.svg'
+    shape2.src = './assets/img/penta_menor6_shape2.svg'
+    shape3.src = './assets/img/penta_menor6_shape3.svg'
+    shape4.src = './assets/img/penta_menor6_shape4.svg'
+    shape5.src = './assets/img/penta_menor6_shape5.svg'
+    shape6.src = './assets/img/nulo.svg'
+    shape7.src = './assets/img/nulo.svg'
+    tipo.innerHTML = '<span class="badge badge-warning">Penta Menor 6</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T b3 4 5 6</span>'
+
+
+}
+
+
 $('.carousel').carousel({
 
     interval: 1000 * 6000
