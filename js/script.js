@@ -81,6 +81,38 @@ menor_melodica.onclick = function () {
 }
 
 
+pentatonica_maior.onclick = function () {
+
+    shape1.src = './assets/img/penta_maior_shape1.svg'
+    shape2.src = './assets/img/penta_maior_shape2.svg'
+    shape3.src = './assets/img/penta_maior_shape3.svg'
+    shape4.src = './assets/img/penta_maior_shape4.svg'
+    shape5.src = './assets/img/penta_maior_shape5.svg'
+    shape6.src = './assets/img/nulo.svg'
+    shape7.src = './assets/img/nulo.svg'
+    tipo.innerHTML = '<span class="badge badge-warning">Pentatônica Maior</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T 2 3  5 6</span>'
+
+
+}
+
+
+pentatonica_menor.onclick = function () {
+
+    shape1.src = './assets/img/penta_menor_shape1.svg'
+    shape2.src = './assets/img/penta_menor_shape2.svg'
+    shape3.src = './assets/img/penta_menor_shape3.svg'
+    shape4.src = './assets/img/penta_menor_shape4.svg'
+    shape5.src = './assets/img/penta_menor_shape5.svg'
+    shape6.src = './assets/img/nulo.svg'
+    shape7.src = './assets/img/nulo.svg'
+    tipo.innerHTML = '<span class="badge badge-warning">Pentatônica Menor</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T b3 4 5 b7</span>'
+
+
+}
+
+
 $('.carousel').carousel({
 
     interval: 1000 * 6000
