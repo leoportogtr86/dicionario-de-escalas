@@ -7,6 +7,7 @@ let pentatonica_maior = document.getElementById('pentatonica_maior')
 let pentatonica_menor = document.getElementById('pentatonica_menor')
 let pentatonica_maior_7 = document.getElementById('pentatonica_maior_7')
 let pentatonica_menor_6 = document.getElementById('pentatonica_menor_6')
+let pentablues = document.getElementById('pentablues')
 let tipo = document.querySelector('#tipo')
 let formacao = document.querySelector('#formacao')
 let shape1 = document.getElementById('shape1')
@@ -108,6 +109,22 @@ pentatonica_menor.onclick = function () {
     shape7.src = './assets/img/nulo.svg'
     tipo.innerHTML = '<span class="badge badge-warning">Pentatônica Menor</span>'
     formacao.innerHTML = '<span class="badge badge-light">Formação: T b3 4 5 b7</span>'
+
+
+}
+
+
+pentablues.onclick = function () {
+
+    shape1.src = './assets/img/penta_blues_shape1.svg'
+    shape2.src = './assets/img/penta_blues_shape2.svg'
+    shape3.src = './assets/img/penta_blues_shape3.svg'
+    shape4.src = './assets/img/penta_blues_shape4.svg'
+    shape5.src = './assets/img/penta_blues_shape5.svg'
+    shape6.src = './assets/img/nulo.svg'
+    shape7.src = './assets/img/nulo.svg'
+    tipo.innerHTML = '<span class="badge badge-warning">Penta Blues</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T b3 4 #4 5 b7</span>'
 
 
 }
