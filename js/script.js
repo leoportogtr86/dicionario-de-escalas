@@ -114,6 +114,22 @@ pentatonica_menor.onclick = function () {
 }
 
 
+pentatonica_maior_7.onclick = function () {
+
+    shape1.src = './assets/img/penta_maior7_shape1.svg'
+    shape2.src = './assets/img/penta_maior7_shape2.svg'
+    shape3.src = './assets/img/penta_maior7_shape3.svg'
+    shape4.src = './assets/img/penta_maior7_shape4.svg'
+    shape5.src = './assets/img/penta_maior7_shape5.svg'
+    shape6.src = './assets/img/nulo.svg'
+    shape7.src = './assets/img/nulo.svg'
+    tipo.innerHTML = '<span class="badge badge-warning">Pentatônica Maior 7</span>'
+    formacao.innerHTML = '<span class="badge badge-light">Formação: T 3 4 5 b7</span>'
+
+
+}
+
+
 pentablues.onclick = function () {
 
     shape1.src = './assets/img/penta_blues_shape1.svg'
